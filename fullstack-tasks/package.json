@@ -1,0 +1,14 @@
+{
+  "name": "interncircle-fullstack-suite",
+  "version": "1.0.0",
+  "description": "ScamShield-inspired 5-Project Fullstack Developer Suite for InternCircle",
+  "scripts": {
+    "start": "node server/src/index.js",
+    "build": "cd client && npm run build",
+    "server": "node server/src/index.js",
+    "client": "cd client && npm run dev"
+  },
+  "keywords": ["react", "typescript", "express", "sqlite", "scamshield"],
+  "author": "Aryan Singh",
+  "license": "ISC"
+}
